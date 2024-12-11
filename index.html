@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page web portfolio</title>
+    <style>
+      .navbar {
+        background-color: rgb(1, 3, 30); /* Couleur de fond (ici un vert) */
+        padding: 0px 0px; /* Espacement intérieur */
+        border-radius: 0px; /* Bordures arrondies */
+        display: flex; /* Disposition en ligne */
+        justify-content: center; /* Espacement entre les éléments */
+        align-items: center; /* Alignement vertical des éléments */
+        position: relative;
+      }
+      .navbar a {
+        color: white; /* Couleur du texte */
+        text-decoration: none; /* Enlever le souligné */
+        padding: 5px 10px; /* Espacement autour des liens */
+        border-radius: 10px; /* Bordures arrondies des liens */
+      }
+      .navbar ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: center;
+        gap: 20px;
+      }
+      .navbar a:hover {
+        background-color: hsl(129, 35%, 30%);
+      }
+      .container{
+        display: flex;
+        align-content: center;
+        padding: auto;
+        height: 600px;
+        display: grid;
+        grid-template-columns: 45% 45%;
+        justify-content: center;
+        align-items: start;
+        gap: 30px;
+      }
+      .container1{
+        display: flex;
+        align-content: flex-start;
+        padding: auto;
+        height: 600px;
+        display: grid;
+        grid-template-columns: 45% 45%;
+        justify-content: center;
+        align-items: start;
+        gap: 30px;
+      }
+      .audio{
+        align-content: flex-start;
+        display: grid;
+        align-items: start;
+        gap: 30px;
+      }
+      .newsletter-form {
+        background-color: rgb(1, 3, 30); /* Couleur de fond (ici un vert) */
+        padding: 0px 0px; /* Espacement intérieur */
+        height: 150px;
+        border-radius: 0px; /* Bordures arrondies */
+        display: flex; /* Disposition en ligne */
+        justify-content: center; /* Espacement entre les éléments */
+        align-items: baseline; /* Alignement vertical des éléments */
+      }
+      .newsletter-form footer, h2{
+        color: white; /* Couleur du texte */
+        text-decoration: none; /* Enlever le souligné */
+        padding: 5px 5px; /* Espacement autour des liens */
+        border-radius: 0px; /* Bordures arrondies des liens */
+        text-align: center;
+      }
+      .container2{
+        display: flex;
+        align-content: flex-start;
+        padding: auto;
+        height: 600px;
+        display: grid;
+        grid-template-columns: 45% 45%;
+        justify-content: center;
+        align-items: start;
+        gap: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="navbar">
+          <nav>
+            <ul>
+              <li><a href="accueil">Accueil</a></li>
+              <li><a href="apropos">A propos</a></li>
+              <li><a href="travail">Travail</a></li>
+              <li><a href="cv">CV</a></li>
+              <li><a href="contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <section>
+        <div class="container" style="background-color: beige;">
+            <div>
+                <h2 style="color: black;">Tiérégnimin Alex SILUE, Développeur Web et Design</h2>
+                <p>
+                    je suis titulaire d'un BTS en informatique et d'un certificat
+                    professionnel en infographie . En informatique, je maîtrise
+                    plusieurs technologies comme HTML, CSS, JavaScript, Python, et en
+                    infographie, je suis à l'aise avec des outils tels que Photoshop,
+                    Illustrator, Indesign. Cette combinaison me permet de développer des
+                    solutions techniques tout en prenant en compte l'expérience
+                    utilisateur et le design visuel, afin de créer des produits à la
+                    fois fonctionnels et esthétiques.
+                </p>
+                <p><strong>E-mail:</strong> tieregnimin@gmail.com</p>
+                <p><strong>Téléphone:</strong> (+225)0709324713</p>
+                <div class=>
+                    <button type="submit">Télécharger CV</button>
+                </div>
+            </div>
+            <div class="img1">
+                <img src="images/img_silue_02.jpg" width="350" height="450">
+            </div>
+        </div>
+      </section>
+      <section>
+        <div class="container1" style="background-color: beige;">
+            <div>
+                <h3>Mes Compétences</h3>
+                <ul style="list-style-type:disc;">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JAVASCRIPT</li>
+                    <li>PYTHON</li>
+                    <li>PACK ADOBE CC</li>
+                </ul>
+                <h3>Langues parlées</h3>
+                <ol>
+                    <li>Français</li>
+                    <li>Anglais</li>
+                </ol>
+            </div>
+            <div class="img1">
+                <img src="images/slider-developpeur-web.jpeg" width="300" height="150">
+            </div>
+            <div>
+                <p>Regardez la vidéo</p>
+                <video controls width="250">
+                    <source src="videos/ma-video.mp4" type="video/mp4">
+                    Verifiez si le navigateur supporte votre fichier.
+                </video>
+            </div>
+            <div class="audio">
+                <p>Ecoutez le Podcast</p>
+                <audio controls loop>
+                    <source src="audios/Canaan Zambe Malamu.mp3" type="audio/mp3">
+                    Verifiez si le navigateur supporte votre fichier.
+                </audio>
+            </div>
+        </div>
+      </section>
+      <section>
+        <div class="container2" style="background-color: beige;">
+            <div>
+                <h3 style="color: black; ">Expérience 1</h3>
+                <p>
+                    APK Africa Services | Infographiste/Community Manager stagiaire
+                    Juin 2019 – Oct. 2021
+                    - Réaliser des visuels pour les réseaux sociaux (images, vidéos, 
+                      animations)
+                    - Gérer la boutique en ligne (ajouter les nouveaux produits, retirer 
+                      ou remplacer les anciens produits, traiter les commandes)
+                    - Gérer les différentes pages Social Media (Facebook, Instagram, 
+                      Tweeter, LinkedIn, TikTok)
+                </p>
+            </div>
+            <div>
+                <h3 style="color: black; ">Expérience 2</h3>
+                <p>
+                    Atrê Marché | Infographiste stagiaire réseaux sociaux
+                    Janvier 2019 – Mai 2019
+                    - Réaliser des visuels pour les réseaux sociaux (images, vidéos, 
+                      animations)
+                </p>
+            </div>
+        </div>
+      </section>
+      <section>
+        <div class="newsletter-form">
+            <footer>
+                    <h2>Inscrivez-vous à ma Newsletter</h2>
+                    <form action="votre_script_de_traitement.php" method="POST">
+                        <label for="email">Votre Email :</label>
+                        <input type="email" id="email" name="email" required placeholder="Entrez votre email">
+                        <button type="submit">S'abonner</button>
+                    </form>
+                    <p>2024 © Designer et Developper par : Tieregnimin Alex SILUE</p>
+            </footer>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
